@@ -1,0 +1,38 @@
+{
+  "name": "STUDIOS SERVER",
+  "website": "https://github.com/BrunoSobrino",
+  "description": "SERVER BOT",
+  "repository": "https://google.com.mx",
+  "logo": "https://raw.githubusercontent.com/BrunoSobrino/Studios Server/master/src/pictures/heroku-icon.jpg",
+  "success_url": "https://google.com.mx",
+  "keywords": [
+    "nodejs",
+    "heroku",
+    "bot",
+    "bots",
+    "bot",
+    "spanish",
+    "whatsapp",
+    "termux",
+    "shadow",
+    "multi-device",
+    "md",
+    "whatsappbot",
+    "oficial",
+    "whatsapp-md",
+    "themysticbot",
+    "themystic-bot",
+    "Studios Server"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
+    }    
+ ]
+}
